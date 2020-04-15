@@ -2,7 +2,10 @@
     // npm install --save simple-excel-to-json
     // npm install -- save json2xls
 
-// Instruções: baixar o arquivo excel do site to Tribunal e salvá-lo no formato xlsx com o nome arquivobase.xlsx no mesmo diretório da aplicação
+/*Instruções: baixar o arquivo excel do site to Tribunal e salvá-lo no formato xlsx com o nome arquivobase.xlsx 
+  no mesmo diretório da aplicação;
+  Abrir o terminal no diretório do projeto e rodar o comando node app.js;
+ */
 
 
 const parser = require('simple-excel-to-json');
