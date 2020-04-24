@@ -12,7 +12,6 @@ router.post('/', upload.single('arquivo'), async (req, res) => {
     converte()
     const arquivo = path.resolve(__dirname, '..', 'saida/eduardo.xlsx')
     await res.download(arquivo)
-    console.log('ok')
 })
 
 module.exports = router; 
