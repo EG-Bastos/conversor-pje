@@ -1,0 +1,16 @@
+form {
+    padding: 100px;
+    padding-left: 150px;
+}
+
+label {
+    font-size: 2em;
+}
+
+body {
+    background: ivory;
+}
+
+label {
+    text-shadow: 1.3px 1.3px 4px rgb(102, 102, 102);
+}
