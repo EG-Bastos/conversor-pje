@@ -6,7 +6,7 @@ var storage = multer.diskStorage({
         cb(null, path.resolve(__dirname, '..', 'uploads'))
     },
     filename: function (req, file, cb) {
-        cb(null, 'arquivobase')
+        cb(null, 'arquivobase.xlsx')
     }
 })
 var upload = multer({

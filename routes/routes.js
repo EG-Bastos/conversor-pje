@@ -7,11 +7,12 @@ router.get('/', (req, res) => {
     res.render('inicial');
 })
 
-router.post('/', upload.single('arquivo'), (req, res) => {
-    const arquivo = path.resolve(__dirname, '..', 'uploads/arquivobase')
+router.post('/', upload.single('arquivo'), async (req, res) => {
     const converte = require('../models/app')
     converte()
-    res.render('saida')
+    const arquivo = path.resolve(__dirname, '..', 'saida/eduardo.xlsx')
+    await res.download(arquivo)
+    console.log('ok')
 })
 
 module.exports = router; 

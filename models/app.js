@@ -3,7 +3,7 @@ const json2xls = require('json2xls');
 const fs = require('fs');
 const path = require('path')
 
-const arquivo = path.resolve(__dirname, '..', 'uploads/arquivobase')
+const arquivo = path.resolve(__dirname, '..', 'uploads/arquivobase.xlsx')
 
 const doc = parser.parseXls2Json(arquivo)[0];
 
