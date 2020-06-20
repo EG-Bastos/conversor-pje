@@ -1,0 +1,33 @@
+{
+  "name": "pje",
+  "version": "1.0.1",
+  "description": "Conversor de excel pje",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Eduardo Gonçalves Bastos",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "json2xls": "^0.1.2",
+    "multer": "^1.4.2",
+    "path": "^0.12.7",
+    "simple-excel-to-json": "^2.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EG-Bastos/conversor-pje.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EG-Bastos/conversor-pje/issues"
+  },
+  "homepage": "https://github.com/EG-Bastos/conversor-pje#readme"
+}
