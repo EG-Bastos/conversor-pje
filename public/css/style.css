@@ -3,7 +3,6 @@
     grid-template-columns: auto auto;
     padding-bottom: 100%;
     background: linear-gradient(135deg, rgb(141, 141, 255), rgb(242, 255, 169) );
-    
 }
 
 body {
@@ -13,11 +12,32 @@ body {
 form {
     grid-area: 1 / 2 / 1 / 3;
     padding-top: 150px;
-    display: block;
+    display: grid;
     margin: 0, auto;
 }
 
 label {
     font-size: 2em;
     text-shadow: 1.3px 1.3px 2px rgba(77, 77, 77, 0.8);
+}
+
+.digitos {
+    display: flex;
+}
+
+.digito-grupo {
+    display: flex;
+}
+
+.par {
+    padding: 15px;
+}
+
+input[type=checkbox] {
+    transform: scale(2.2);
+    padding: 3px;
+}
+
+label{
+    padding-left: 5px;;
 }

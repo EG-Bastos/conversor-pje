@@ -19,7 +19,9 @@
     "path": "^0.12.7",
     "simple-excel-to-json": "^2.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EG-Bastos/conversor-pje.git"
