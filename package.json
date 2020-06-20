@@ -4,7 +4,8 @@
   "description": "Conversor de excel pje",
   "main": "app.js",
   "engines": {
-    "node": "12.18.1",
+    "node": "6.11.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
